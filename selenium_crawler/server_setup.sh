@@ -1,11 +1,14 @@
 ###################################################################
 # How selenium crawler can be set up an on ubuntu server.
-# Tested on Ubuntu 20.04 Kernel Aug 28, 2022.
-# Tested on Sim-04 and Sim-08 machines from the lab.
+
+# Tested on Ubuntu 20.04 Aug 28, 2022.
+# Tested on Sim-04 and Sim-08 machines from Nu-Lab.
+
+# inspired by: https://withr.github.io/set-up-selenium-headless-on-ubuntu-16.04/
 ###################################################################
 
 ### install pip 
-# check by: python3 -m pip freeze
+# check if there is a pip: python3 -m pip freeze
 # if no pip: sudo apt-get intall python3-pip
 
 ### install selenium
